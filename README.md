@@ -1,2 +1,4 @@
-# Projeto de revisão T11
+
+<!-- Colocar que é necessario configurar o env. - NPM i -  -->
+
 
