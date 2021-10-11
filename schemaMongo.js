@@ -15,3 +15,5 @@ db.students.insertMany([
   { 'name': 'Lima', 'middleName': 'Lima', 'lastName': 'Lima', 'city': 'Lima', 'photoURL':'https://ca.slack-edge.com/TMDDFEPFU-U01Q1HH1MKM-be515a81f66a-512' ,'lastModification': null, 'createdAt': new Date('2014-03-01T08:00:00Z'), 'phrase': 'Batatinha quando esparrama' },
   { 'name': 'Lima', 'middleName': 'Lima', 'lastName': 'Lima', 'city': 'Lima', 'photoURL':'https://ca.slack-edge.com/TMDDFEPFU-U01Q1HH1MKM-be515a81f66a-512' ,'lastModification': null, 'createdAt': new Date('2014-03-01T08:00:00Z'), 'phrase': 'Batatinha quando esparrama' }
 ]);
+
+

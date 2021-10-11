@@ -1,5 +1,6 @@
 const { MongoClient } = require('mongodb');
-const { HOST, DB_NAME } = process.env || 'mongodb://127.0.0.1:27017';
+//  Necessario configurar o env para o desenvolvimento
+const { HOST, DB_NAME } = process.env;
 
 const OPTIONS = {
 useNewUrlParser: true,
@@ -14,6 +15,7 @@ return db
 : MongoClient.connect(HOST, OPTIONS)
 .then((conn) => {
 db = conn.db(DB_NAME);
+
 return db;
 })
 }; 
